@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=PlanOfStudy
+comment1.params=
+comment1.target=PlanOfStudy()
+comment2.params=filename
+comment2.target=void\ importData(java.lang.String)
+comment3.params=
+comment3.target=void\ savestate()
+comment4.params=courseCode\ semester
+comment4.target=void\ addCourse(java.lang.String,\ java.lang.String)
+comment5.params=courseCode\ semester
+comment5.target=void\ removeCourse(java.lang.String,\ java.lang.String)
+comment6.params=courseCode\ semester\ courseStatus
+comment6.target=void\ setCourseStatus(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment7.params=courseCode\ semester\ grade
+comment7.target=void\ setCourseGrade(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment8.params=courseCode\ semester
+comment8.target=Course\ getCourse(java.lang.String,\ java.lang.String)
+numComments=9

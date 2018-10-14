@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=CourseCatalog
+comment1.params=
+comment1.target=CourseCatalog()
+comment2.params=filename
+comment2.target=void\ initializeCatalog(java.lang.String)
+comment3.params=toAdd
+comment3.target=void\ addCourse(Course)
+comment4.params=toRemove
+comment4.target=void\ removeCourse(Course)
+comment5.params=
+comment5.target=void\ saveCatalog()
+comment6.params=courseCode
+comment6.target=Course\ findCourse(java.lang.String)
+numComments=7

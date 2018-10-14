@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Course
+comment1.params=
+comment1.target=Course()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Student\r\n
+comment2.params=
+comment2.target=java.lang.String\ getCourseCode()
+comment2.text=\r\n\ method\ to\ get\ the\ full\ name\ of\ a\ student\r\n\r\n\ @param\ \ no\ parameter\r\n\ @return\ the\ full\ name\ in\ manner\ (firstname)\ (lastname)\r\n
+comment3.params=courseCode
+comment3.target=void\ setCourseCode(java.lang.String)
+comment3.text=\r\n\ method\ to\ get\ the\ full\ name\ of\ a\ student\r\n\r\n\ @param\ \ S\r\n\ @return\ the\ full\ name\ in\ manner\ (firstname)\ (lastname)\r\n
+comment4.params=courseTitle
+comment4.target=void\ setCourseTitle(java.lang.String)
+comment4.text=\r\n\ method\ to\ get\ the\ full\ name\ of\ a\ student\r\n\r\n\ @param\ \ no\ parameter\r\n\ @return\ the\ full\ name\ in\ manner\ (firstname)\ (lastname)\r\n
+comment5.params=
+comment5.target=double\ getCourseCredit()
+comment5.text=\r\n\ method\ to\ get\ the\ full\ name\ of\ a\ student\r\n\r\n\ @param\ \ no\ parameter\r\n\ @return\ the\ full\ name\ in\ manner\ (firstname)\ (lastname)\r\n
+comment6.params=credit
+comment6.target=void\ setCourseCredit(double)
+comment6.text=\r\n\ method\ to\ get\ the\ full\ name\ of\ a\ student\r\n\r\n\ @param\ \ no\ parameter\r\n\ @return\ the\ full\ name\ in\ manner\ (firstname)\ (lastname)\r\n
+comment7.params=
+comment7.target=java.util.ArrayList\ getPrerequisites()
+comment7.text=\r\n\ method\ to\ get\ the\ full\ name\ of\ a\ student\r\n\r\n\ @param\ \ no\ parameter\r\n\ @return\ the\ full\ name\ in\ manner\ (firstname)\ (lastname)\r\n
+comment8.params=preReqList
+comment8.target=void\ setPrerequisites(java.util.ArrayList)
+comment8.text=\r\n\ method\ to\ get\ the\ full\ name\ of\ a\ student\r\n\r\n\ @param\ \ no\ parameter\r\n\ @return\ the\ full\ name\ in\ manner\ (firstname)\ (lastname)\r\n
+numComments=9
