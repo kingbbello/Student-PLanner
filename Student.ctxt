@@ -1,18 +1,18 @@
 #BlueJ class context
 comment0.target=Student
-comment0.text=\r\n\ Description\ of\ class\ Student\ here.\r\n\r\nThe\ class\ contains\ 6\ methods\ and\ 3\ fields.\ It\ is\ a\ simple\ class\ with\ a\ bunch\ of\ getters\ and\ setters\r\n\r\n\ @author\ (Bello\ Mustapha\ Olakitan)\r\n\ @version\ (01/10/2018)\r\n
+comment0.text=\r\n\ The\ class\ Student\ is\ the\ most\ basic\ class\ in\ this\ project.\ It\ does\ not\ require\ any\ other\ class\ to\ function\ and\ is\ only\ called\ \r\nby\ one\ class(PlanOfStudy).\r\nThe\ class\ contains\ 6\ methods\ and\ 3\ fields.\ It\ is\ a\ simple\ class\ with\ a\ bunch\ of\ getters\ and\ setters\r\n\r\n\ @author\ (Bello\ Mustapha\ Olakitan)\r\n\ @version\ (14/10/2018)\r\n
 comment1.params=
 comment1.target=Student()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Student\r\n
 comment2.params=
 comment2.target=java.lang.String\ getFullName()
-comment2.text=\r\n\ method\ to\ get\ the\ full\ name\ of\ a\ student\r\n\r\n\ @param\ \ no\ parameter\r\n\ @return\ the\ full\ name\ in\ manner\ (firstname)\ (lastname)\r\n
+comment2.text=\r\ngets\ the\ full\ name\ of\ a\ student\r\n\r\n\ @param\ \ no\ parameter\r\n\ @return\ the\ full\ name\ in\ manner\ (firstname)\ (lastname)\r\n
 comment3.params=first
 comment3.target=void\ setFirstName(java.lang.String)
-comment3.text=\r\n\ method\ to\ get\ the\ full\ name\ of\ a\ student\r\n\r\n\ @param\ \ S\r\n\ @return\ the\ full\ name\ in\ manner\ (firstname)\ (lastname)\r\n
+comment3.text=\r\n\ sets\ the\ first\ name\ of\ a\ student\r\n\r\n\ @param\ \ String\ fist\r\n
 comment4.params=last
 comment4.target=void\ setLastName(java.lang.String)
-comment4.text=\r\n\ method\ to\ get\ the\ full\ name\ of\ a\ student\r\n\r\n\ @param\ \ no\ parameter\r\n\ @return\ the\ full\ name\ in\ manner\ (firstname)\ (lastname)\r\n
+comment4.text=\r\nsets\ the\ last\ name\ of\ a\ student\r\n\r\n\ @param\ \ String\ last\r\n\ @return\ the\ full\ name\ in\ manner\ (firstname)\ (lastname)\r\n
 comment5.params=
 comment5.target=java.lang.String\ getFirstName()
 comment5.text=\r\n\ method\ to\ get\ the\ full\ name\ of\ a\ student\r\n\r\n\ @param\ \ no\ parameter\r\n\ @return\ the\ full\ name\ in\ manner\ (firstname)\ (lastname)\r\n

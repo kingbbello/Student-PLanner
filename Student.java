@@ -1,10 +1,10 @@
 /**
- * Description of class Student here.
- *
+ * The class Student is the most basic class in this project. It does not require any other class to function and is only called 
+ *by one class(PlanOfStudy).
  *The class contains 6 methods and 3 fields. It is a simple class with a bunch of getters and setters
  *
  * @author (Bello Mustapha Olakitan)
- * @version (01/10/2018)
+ * @version (14/10/2018)
  */
 public class Student
 {
@@ -18,17 +18,17 @@ public class Student
      */
     public Student()
     {
-        // initialise instance variables
+        // Initialize instance variables
         firstName = new String();
         lastName = new String();
         studentNumber = 0;
     }
 
     /**
-     * method to get the full name of a student
+     *gets the full name of a student
      *
      * @param  no parameter
-     * @return the full name in manner (firstname) (lastname)
+     * @return the full name with first name followed by last name
      */
     public String getFullName()
     {
@@ -38,71 +38,46 @@ public class Student
         return fullName;
     }
     
-    /**
-     * method to get the full name of a student
-     *
-     * @param  S
-     * @return the full name in manner (firstname) (lastname)
-     */
+
     public void setFirstName(String first)
     {
         // put your code here
-        firstName = first;
+    	if(first!=null) {
+    		firstName = first;
+    	}
     }
     
-    /**
-     * method to get the full name of a student
-     *
-     * @param  no parameter
-     * @return the full name in manner (firstname) (lastname)
-     */
+
     public void setLastName(String last)
     {
         // put your code here
-        lastName = last;
+    	if(last!=null) {
+    		lastName = last;
+    	}
     }
     
-       /**
-     * method to get the full name of a student
-     *
-     * @param  no parameter
-     * @return the full name in manner (firstname) (lastname)
-     */
+
     public String getFirstName()
     {
         // put your code here
         return firstName;
     }
       
-           /**
-     * method to get the full name of a student
-     *
-     * @param  no parameter
-     * @return the full name in manner (firstname) (lastname)
-     */
+
     public String getLastName()
     {
         // put your code here
         return lastName;
     }
     
-    /**
-     * method to get the full name of a student
-     *
-     * @param  no parameter
-     * @return the full name in manner (firstname) (lastname)
-     */
+
     public void setStudentNumber(Integer studentNum)
     {
-        studentNumber = (int)(studentNum);
+    	if(studentNum!=null) {
+    		studentNumber = (int)(studentNum);
+    	}
     }
-    
-        /**
-     * method to get the full name of a student
-     *
-     * @param  no parameter
-     * @return the full name in manner (firstname) (lastname)
-     */
+
     public Integer getStudentNumber()
     {
         return studentNumber;

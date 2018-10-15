@@ -15,7 +15,8 @@ public class Course
     private double cCredit;
 	private String status;
 	private String cGrade;
-	private String semesterTaken;;
+	private String semesterTaken;
+	private ArrayList<Course> prereq;
 
     /**
      * Constructor for objects of class Student
@@ -29,6 +30,34 @@ public class Course
         status = new String();
         cGrade = new String();
         semesterTaken = new String();
+        prereq = new ArrayList<Course>();
+        
+    }
+    public Course(String code,String title,double cCredit, String status,String cGrade,String semesterTaken)
+    {
+        // Initialize instance variables
+        this.code = code;
+        this.title = title;
+        this.cCredit= cCredit;
+        this.status = status;
+        this.cGrade = cGrade;
+        this.semesterTaken = semesterTaken;
+    }
+    
+    public Course(Course copy) {
+    	System.out.println("copy constructor called");
+    	Course newCourse = new Course();
+    	newCourse.code = copy.code;
+    	newCourse.title = copy.title;
+    	newCourse.cCredit = copy.cCredit;
+    	newCourse.status = copy.status;
+    	newCourse.cGrade = copy.cGrade;
+    	newCourse.semesterTaken = copy.semesterTaken;
+    	newCourse.prereq = new ArrayList<Course>();
+    	for(Course eachCourse: copy.prereq) {
+    		newCourse.prereq.add(eachCourse);
+    	}
+    	
     }
 
     public String getCourseCode()
@@ -40,7 +69,9 @@ public class Course
     public void setCourseCode(String courseCode)
     {
         // put your code here
-        code = courseCode;
+    	if(courseCode!=null) {
+    		code = courseCode;
+    	}
     }
     
     public String getCourseTitle() {
@@ -50,7 +81,9 @@ public class Course
     public void setCourseTitle(String courseTitle)
     {
         // put your code here
-        title = courseTitle;
+    	if(courseTitle!=null) {
+    		title = courseTitle;
+    	}
     }
     
     public double getCourseCredit()
@@ -62,23 +95,29 @@ public class Course
     public void setCourseCredit(double credit)
     {
         // put your code here
-        cCredit = credit;
+    	if(credit>=0) {
+    		cCredit = credit;
+    	}
     }
       
     public ArrayList<Course> getPrerequisites()
     {
 		
         // put your code here
-    	return null;
+    	return prereq;
     }
     
     public void setPrerequisites(ArrayList<Course> preReqList)
     {
-        
+    	if(preReqList != null) {
+    		prereq = preReqList;
+    	}
     }
     
     public void setCourseStatus(String courseStatus) {
-    	status = courseStatus;
+    	if(courseStatus!=null) {
+    		status = courseStatus;
+    	}
     }
     
     public String getCourseStatus() {
@@ -86,7 +125,9 @@ public class Course
     }
     
     public void setCourseGrade(String grade) {
-    	cGrade = grade;
+    	if(grade!= null && grade.charAt(0)!= '-') {
+    		cGrade = grade;
+    	}
     }
     
     public String getCourseGrade() {
@@ -94,7 +135,10 @@ public class Course
     }
     
     public void setSemesterTaken(String semester) {
-    	semesterTaken = semester;
+    	if(semester != null) {
+    		semesterTaken = semester;
+    		
+    	}
     }
     
     public String getSemesterTaken() {
